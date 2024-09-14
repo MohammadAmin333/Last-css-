@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: blanchedalmond;
+}
+
+a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+a:hover {
+    color: crimson;
+}
+
+ul>li {
+    font-weight: bold;
+    color: deeppink;
+}
+
+h1+p {
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+ul li:hover {
+    color: gold;
+}
+p::first-letter{
+    font-size: 200%;
+    color: brown;
+}
